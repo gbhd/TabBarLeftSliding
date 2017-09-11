@@ -1,0 +1,356 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		65681A801E9E007E0067B458 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 65681A7F1E9E007E0067B458 /* main.m */; };
+		65681A831E9E007E0067B458 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65681A821E9E007E0067B458 /* AppDelegate.m */; };
+		65681A8B1E9E007F0067B458 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65681A8A1E9E007F0067B458 /* Assets.xcassets */; };
+		65681A971E9E00C80067B458 /* BaseTabBarCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 65681A961E9E00C80067B458 /* BaseTabBarCtrl.m */; };
+		65681A9A1E9E00DC0067B458 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65681A991E9E00DC0067B458 /* BaseViewController.m */; };
+		65681A9E1E9E00F10067B458 /* STHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65681A9C1E9E00F10067B458 /* STHomeViewController.m */; };
+		65681A9F1E9E00F10067B458 /* STHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65681A9D1E9E00F10067B458 /* STHomeViewController.xib */; };
+		65681AA81E9E011D0067B458 /* STScanSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65681AA61E9E011D0067B458 /* STScanSearchViewController.m */; };
+		65681AA91E9E011D0067B458 /* STScanSearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65681AA71E9E011D0067B458 /* STScanSearchViewController.xib */; };
+		65681AAD1E9E01280067B458 /* STShopCartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65681AAB1E9E01280067B458 /* STShopCartViewController.m */; };
+		65681AAE1E9E01280067B458 /* STShopCartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65681AAC1E9E01280067B458 /* STShopCartViewController.xib */; };
+		65681AB21E9E01330067B458 /* STMyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65681AB01E9E01330067B458 /* STMyViewController.m */; };
+		65681AB31E9E01330067B458 /* STMyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65681AB11E9E01330067B458 /* STMyViewController.xib */; };
+		65681AB71E9E014A0067B458 /* STScanSearchTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 65681AB51E9E014A0067B458 /* STScanSearchTableViewCell.m */; };
+		65681AB81E9E014A0067B458 /* STScanSearchTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65681AB61E9E014A0067B458 /* STScanSearchTableViewCell.xib */; };
+		65681ABC1E9E04690067B458 /* STSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65681ABA1E9E04690067B458 /* STSearchViewController.m */; };
+		65681ABD1E9E04690067B458 /* STSearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65681ABB1E9E04690067B458 /* STSearchViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		65681A7B1E9E007E0067B458 /* TabBarLeftSliding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabBarLeftSliding.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65681A7F1E9E007E0067B458 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		65681A811E9E007E0067B458 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		65681A821E9E007E0067B458 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		65681A8A1E9E007F0067B458 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		65681A8F1E9E007F0067B458 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65681A951E9E00C80067B458 /* BaseTabBarCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTabBarCtrl.h; sourceTree = "<group>"; };
+		65681A961E9E00C80067B458 /* BaseTabBarCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTabBarCtrl.m; sourceTree = "<group>"; };
+		65681A981E9E00DC0067B458 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		65681A991E9E00DC0067B458 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		65681A9B1E9E00F10067B458 /* STHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STHomeViewController.h; sourceTree = "<group>"; };
+		65681A9C1E9E00F10067B458 /* STHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STHomeViewController.m; sourceTree = "<group>"; };
+		65681A9D1E9E00F10067B458 /* STHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = STHomeViewController.xib; sourceTree = "<group>"; };
+		65681AA51E9E011D0067B458 /* STScanSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STScanSearchViewController.h; sourceTree = "<group>"; };
+		65681AA61E9E011D0067B458 /* STScanSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STScanSearchViewController.m; sourceTree = "<group>"; };
+		65681AA71E9E011D0067B458 /* STScanSearchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = STScanSearchViewController.xib; sourceTree = "<group>"; };
+		65681AAA1E9E01280067B458 /* STShopCartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STShopCartViewController.h; sourceTree = "<group>"; };
+		65681AAB1E9E01280067B458 /* STShopCartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STShopCartViewController.m; sourceTree = "<group>"; };
+		65681AAC1E9E01280067B458 /* STShopCartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = STShopCartViewController.xib; sourceTree = "<group>"; };
+		65681AAF1E9E01330067B458 /* STMyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMyViewController.h; sourceTree = "<group>"; };
+		65681AB01E9E01330067B458 /* STMyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMyViewController.m; sourceTree = "<group>"; };
+		65681AB11E9E01330067B458 /* STMyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = STMyViewController.xib; sourceTree = "<group>"; };
+		65681AB41E9E014A0067B458 /* STScanSearchTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STScanSearchTableViewCell.h; sourceTree = "<group>"; };
+		65681AB51E9E014A0067B458 /* STScanSearchTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STScanSearchTableViewCell.m; sourceTree = "<group>"; };
+		65681AB61E9E014A0067B458 /* STScanSearchTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = STScanSearchTableViewCell.xib; sourceTree = "<group>"; };
+		65681AB91E9E04690067B458 /* STSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STSearchViewController.h; sourceTree = "<group>"; };
+		65681ABA1E9E04690067B458 /* STSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STSearchViewController.m; sourceTree = "<group>"; };
+		65681ABB1E9E04690067B458 /* STSearchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = STSearchViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65681A781E9E007E0067B458 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		65681A721E9E007E0067B458 = {
+			isa = PBXGroup;
+			children = (
+				65681A7D1E9E007E0067B458 /* TabBarLeftSliding */,
+				65681A7C1E9E007E0067B458 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		65681A7C1E9E007E0067B458 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65681A7B1E9E007E0067B458 /* TabBarLeftSliding.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65681A7D1E9E007E0067B458 /* TabBarLeftSliding */ = {
+			isa = PBXGroup;
+			children = (
+				65681A811E9E007E0067B458 /* AppDelegate.h */,
+				65681A821E9E007E0067B458 /* AppDelegate.m */,
+				65681A951E9E00C80067B458 /* BaseTabBarCtrl.h */,
+				65681A961E9E00C80067B458 /* BaseTabBarCtrl.m */,
+				65681A981E9E00DC0067B458 /* BaseViewController.h */,
+				65681A991E9E00DC0067B458 /* BaseViewController.m */,
+				65681A9B1E9E00F10067B458 /* STHomeViewController.h */,
+				65681A9C1E9E00F10067B458 /* STHomeViewController.m */,
+				65681A9D1E9E00F10067B458 /* STHomeViewController.xib */,
+				65681AB91E9E04690067B458 /* STSearchViewController.h */,
+				65681ABA1E9E04690067B458 /* STSearchViewController.m */,
+				65681ABB1E9E04690067B458 /* STSearchViewController.xib */,
+				65681AA51E9E011D0067B458 /* STScanSearchViewController.h */,
+				65681AA61E9E011D0067B458 /* STScanSearchViewController.m */,
+				65681AA71E9E011D0067B458 /* STScanSearchViewController.xib */,
+				65681AAA1E9E01280067B458 /* STShopCartViewController.h */,
+				65681AAB1E9E01280067B458 /* STShopCartViewController.m */,
+				65681AAC1E9E01280067B458 /* STShopCartViewController.xib */,
+				65681AAF1E9E01330067B458 /* STMyViewController.h */,
+				65681AB01E9E01330067B458 /* STMyViewController.m */,
+				65681AB11E9E01330067B458 /* STMyViewController.xib */,
+				65681AB41E9E014A0067B458 /* STScanSearchTableViewCell.h */,
+				65681AB51E9E014A0067B458 /* STScanSearchTableViewCell.m */,
+				65681AB61E9E014A0067B458 /* STScanSearchTableViewCell.xib */,
+				65681A8A1E9E007F0067B458 /* Assets.xcassets */,
+				65681A8F1E9E007F0067B458 /* Info.plist */,
+				65681A7E1E9E007E0067B458 /* Supporting Files */,
+			);
+			path = TabBarLeftSliding;
+			sourceTree = "<group>";
+		};
+		65681A7E1E9E007E0067B458 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				65681A7F1E9E007E0067B458 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65681A7A1E9E007E0067B458 /* TabBarLeftSliding */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65681A921E9E007F0067B458 /* Build configuration list for PBXNativeTarget "TabBarLeftSliding" */;
+			buildPhases = (
+				65681A771E9E007E0067B458 /* Sources */,
+				65681A781E9E007E0067B458 /* Frameworks */,
+				65681A791E9E007E0067B458 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TabBarLeftSliding;
+			productName = TabBarLeftSliding;
+			productReference = 65681A7B1E9E007E0067B458 /* TabBarLeftSliding.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		65681A731E9E007E0067B458 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "soso-mac";
+				TargetAttributes = {
+					65681A7A1E9E007E0067B458 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = AKEZGLTY8R;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 65681A761E9E007E0067B458 /* Build configuration list for PBXProject "TabBarLeftSliding" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 65681A721E9E007E0067B458;
+			productRefGroup = 65681A7C1E9E007E0067B458 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65681A7A1E9E007E0067B458 /* TabBarLeftSliding */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65681A791E9E007E0067B458 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65681AAE1E9E01280067B458 /* STShopCartViewController.xib in Resources */,
+				65681AA91E9E011D0067B458 /* STScanSearchViewController.xib in Resources */,
+				65681A9F1E9E00F10067B458 /* STHomeViewController.xib in Resources */,
+				65681AB31E9E01330067B458 /* STMyViewController.xib in Resources */,
+				65681AB81E9E014A0067B458 /* STScanSearchTableViewCell.xib in Resources */,
+				65681ABD1E9E04690067B458 /* STSearchViewController.xib in Resources */,
+				65681A8B1E9E007F0067B458 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65681A771E9E007E0067B458 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65681A831E9E007E0067B458 /* AppDelegate.m in Sources */,
+				65681A9A1E9E00DC0067B458 /* BaseViewController.m in Sources */,
+				65681A801E9E007E0067B458 /* main.m in Sources */,
+				65681ABC1E9E04690067B458 /* STSearchViewController.m in Sources */,
+				65681AA81E9E011D0067B458 /* STScanSearchViewController.m in Sources */,
+				65681AB21E9E01330067B458 /* STMyViewController.m in Sources */,
+				65681A9E1E9E00F10067B458 /* STHomeViewController.m in Sources */,
+				65681A971E9E00C80067B458 /* BaseTabBarCtrl.m in Sources */,
+				65681AB71E9E014A0067B458 /* STScanSearchTableViewCell.m in Sources */,
+				65681AAD1E9E01280067B458 /* STShopCartViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		65681A901E9E007F0067B458 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		65681A911E9E007F0067B458 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		65681A931E9E007F0067B458 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AKEZGLTY8R;
+				INFOPLIST_FILE = TabBarLeftSliding/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TabBarLeftSliding;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		65681A941E9E007F0067B458 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AKEZGLTY8R;
+				INFOPLIST_FILE = TabBarLeftSliding/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TabBarLeftSliding;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65681A761E9E007E0067B458 /* Build configuration list for PBXProject "TabBarLeftSliding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65681A901E9E007F0067B458 /* Debug */,
+				65681A911E9E007F0067B458 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65681A921E9E007F0067B458 /* Build configuration list for PBXNativeTarget "TabBarLeftSliding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65681A931E9E007F0067B458 /* Debug */,
+				65681A941E9E007F0067B458 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 65681A731E9E007E0067B458 /* Project object */;
+}
